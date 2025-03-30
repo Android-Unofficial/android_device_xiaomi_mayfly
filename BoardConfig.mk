@@ -12,6 +12,9 @@ include device/xiaomi/sm8450-common/BoardConfigCommon.mk
 # Light
 TARGET_SENSOR_NOTIFIER_EXT := //device/xiaomi/mayfly:libsensor-notifier-ext-light
 
+# Audio
+AUDIO_FEATURE_ENABLED_ULTRASOUND_PROXIMITY := true
+
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/properties/system.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
