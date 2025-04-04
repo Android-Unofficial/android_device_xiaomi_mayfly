@@ -14,6 +14,13 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from mayfly device
 $(call inherit-product, device/xiaomi/mayfly/device.mk)
 
+TARGET_ENABLE_BLUR := true
+WITH_GMS := true
+TARGET_CORE_GMS := true
+TARGET_CORE_GMS_EXTRAS := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+TARGET_INCLUDE_GOOGLE_DIALER := true
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := mayfly
 PRODUCT_MANUFACTURER := Xiaomi

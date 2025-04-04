@@ -17,6 +17,11 @@ PRODUCT_PACKAGES += \
     SystemUIResMayfly \
     WifiResMayfly
 
+# RisingOS
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Snapdragon 8 Plus Gen 1" \
+    RisingMaintainer="KernelPanix"
+
 # PowerShare
 PRODUCT_PACKAGES += \
     vendor.lineage.powershare@1.0-service.default
