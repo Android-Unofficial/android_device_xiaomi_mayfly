@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_mayfly.mk
+    $(LOCAL_DIR)/derp_mayfly.mk
