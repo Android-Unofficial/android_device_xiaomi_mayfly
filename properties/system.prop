@@ -1,2 +1,11 @@
 # Xiaomi
 ro.product.mod_device=mayfly
+
+
+# Infinity_x Props
+ro.infinity.soc=Snapdragon 8 Plus Gen 1
+ro.infinity.battery=4500 mAh
+ro.infinity.display=1080 x 2400, 120Hz
+ro.infinity.camera=50MP + 13MP + 5MP
+
+ro.product.marketname=Xiaomi 12S
